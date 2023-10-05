@@ -104,29 +104,29 @@ class MyDrawer extends StatelessWidget {
   }
 }
 
-class MyNavbar extends StatelessWidget {
-  const MyNavbar({Key? key}) : super(key: key);
+// class MyNavbar extends StatelessWidget {
+//   const MyNavbar({Key? key}) : super(key: key);
 
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      color: Theme.of(context).primaryColor,
-      child: const Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          NavbarItem(label: 'Home', onTap: null),
-          NavbarItem(label: 'About Us', onTap: null),
-          NavbarItem(label: 'Contact', onTap: null),
-          NavbarItem(label: 'Blog', onTap: null),
-          NavbarItem(label: 'Project', onTap: null),
-          NavbarItem(label: 'Services', onTap: null),
-          NavbarItem(label: 'Blog', onTap: null),
-          NavbarItem(label: 'Project', onTap: null),
-        ],
-      ),
-    );
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return Container(
+//       color: Theme.of(context).primaryColor,
+//       child: const Row(
+//         mainAxisAlignment: MainAxisAlignment.center,
+//         children: [
+//           NavbarItem(label: 'Home', onTap: null),
+//           NavbarItem(label: 'About Us', onTap: null),
+//           NavbarItem(label: 'Contact', onTap: null),
+//           NavbarItem(label: 'Blog', onTap: null),
+//           NavbarItem(label: 'Project', onTap: null),
+//           NavbarItem(label: 'Services', onTap: null),
+//           NavbarItem(label: 'Blog', onTap: null),
+//           NavbarItem(label: 'Project', onTap: null),
+//         ],
+//       ),
+//     );
+//   }
+// }
 
 class NavbarItem extends StatelessWidget {
   final String label;
