@@ -148,7 +148,7 @@ class NavbarItem extends StatelessWidget {
           label,
           style: const TextStyle(
             color: Colors.white,
-            fontSize: 16,
+            fontSize: 14,
           ),
         ),
       ),
