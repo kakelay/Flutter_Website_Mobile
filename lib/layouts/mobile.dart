@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:group_grid_view/group_grid_view.dart';
 import 'package:test_responsive/share_widget/group_grid_view.dart';
 
 class MobileLayout extends StatefulWidget {
